@@ -46,15 +46,16 @@ Educativo y de Aprendizaje Personal
 
 10. Configuración de /settings.py 
     ```bash 
-        INSTALLED_APPS = [
-        'django.contrib.admin',
-        'django.contrib.auth',
-        'django.contrib.contenttypes',
-        'django.contrib.sessions',
-        'django.contrib.messages',
-        'django.contrib.staticfiles',
-        'consultasaapp',
-        ]
+    INSTALLED_APPS = [
+        'consultaapp',
+    ]
+
+    MIGRATION_MODULES = {
+        'auth': None,
+        'admin': None,
+        'contenttypes': None,
+        'sessions': None,
+    }
 
 # Creación del Modelo 
 
