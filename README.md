@@ -60,7 +60,7 @@ Educativo y de Aprendizaje Personal
 
 11. Creamos una base de datos en postgrest llamada dbexistente y configuramos en el settings.py
     ```bash
-   from decouple import config
+    from decouple import config
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
